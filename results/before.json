@@ -1,0 +1,287 @@
+{
+  "label": "before",
+  "config": {
+    "embedder": "tfidf",
+    "chunk_size": 500,
+    "overlap": 0,
+    "title_prefix": false,
+    "heading_aware": false,
+    "top_k": 4,
+    "run_at": "2026-10-26T14:16:24",
+    "mode": "retrieval-only"
+  },
+  "summary": {
+    "retrieval_hit": {
+      "score": 0.9375,
+      "n": 16
+    },
+    "hit_at_1": {
+      "score": 0.8125,
+      "n": 16
+    },
+    "mrr": {
+      "score": 0.875,
+      "n": 16
+    }
+  },
+  "rows": [
+    {
+      "id": "pto-carryover",
+      "category": "lookup",
+      "metrics": {
+        "retrieval_hit": 1.0,
+        "hit_at_1": 0.0,
+        "mrr": 0.5
+      },
+      "notes": [],
+      "retrieved": [
+        "pto-policy#1",
+        "pto-policy#0",
+        "expense-policy#1",
+        "learning-budget#0"
+      ]
+    },
+    {
+      "id": "alcohol",
+      "category": "lookup",
+      "metrics": {
+        "retrieval_hit": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0
+      },
+      "notes": [],
+      "retrieved": [
+        "expense-policy#0",
+        "acceptable-use#0",
+        "travel-booking#0",
+        "offboarding#0"
+      ]
+    },
+    {
+      "id": "nyc-hotel",
+      "category": "lookup",
+      "metrics": {
+        "retrieval_hit": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0
+      },
+      "notes": [],
+      "retrieved": [
+        "travel-booking#0",
+        "expense-policy#0",
+        "remote-work#0",
+        "holidays#0"
+      ]
+    },
+    {
+      "id": "lost-laptop",
+      "category": "lookup",
+      "metrics": {
+        "retrieval_hit": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0
+      },
+      "notes": [],
+      "retrieved": [
+        "security#0",
+        "equipment#0",
+        "acceptable-use#0",
+        "onboarding#0"
+      ]
+    },
+    {
+      "id": "sms-mfa",
+      "category": "lookup",
+      "metrics": {
+        "retrieval_hit": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0
+      },
+      "notes": [],
+      "retrieved": [
+        "security#0",
+        "code-of-conduct#0",
+        "sick-leave#0",
+        "acceptable-use#0"
+      ]
+    },
+    {
+      "id": "on-call-pay",
+      "category": "lookup",
+      "metrics": {
+        "retrieval_hit": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0
+      },
+      "notes": [],
+      "retrieved": [
+        "on-call#0",
+        "parental-leave#0",
+        "learning-budget#0",
+        "it-support#0"
+      ]
+    },
+    {
+      "id": "sev1-updates",
+      "category": "lookup",
+      "metrics": {
+        "retrieval_hit": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0
+      },
+      "notes": [],
+      "retrieved": [
+        "incident-response#0",
+        "it-support#0",
+        "on-call#0",
+        "company-faq#0"
+      ]
+    },
+    {
+      "id": "hsa-family",
+      "category": "lookup",
+      "metrics": {
+        "retrieval_hit": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0
+      },
+      "notes": [],
+      "retrieved": [
+        "health-benefits#0",
+        "acceptable-use#0",
+        "sick-leave#0",
+        "offboarding#0"
+      ]
+    },
+    {
+      "id": "annual-internet",
+      "category": "math",
+      "metrics": {
+        "retrieval_hit": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0
+      },
+      "notes": [],
+      "retrieved": [
+        "remote-work#0",
+        "expense-policy#0",
+        "learning-budget#0",
+        "pto-policy#0"
+      ]
+    },
+    {
+      "id": "sf-hotel-4-nights",
+      "category": "math",
+      "metrics": {
+        "retrieval_hit": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0
+      },
+      "notes": [],
+      "retrieved": [
+        "travel-booking#0",
+        "compensation#0",
+        "remote-work#0",
+        "expense-policy#0"
+      ]
+    },
+    {
+      "id": "mileage",
+      "category": "math",
+      "metrics": {
+        "retrieval_hit": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0
+      },
+      "notes": [],
+      "retrieved": [
+        "expense-policy#0",
+        "travel-booking#0",
+        "incident-response#0",
+        "remote-work#0"
+      ]
+    },
+    {
+      "id": "pto-8-months",
+      "category": "math",
+      "metrics": {
+        "retrieval_hit": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0
+      },
+      "notes": [],
+      "retrieved": [
+        "pto-policy#0",
+        "pto-policy#1",
+        "parental-leave#0",
+        "health-benefits#0"
+      ]
+    },
+    {
+      "id": "paid-days-total",
+      "category": "multi-hop",
+      "metrics": {
+        "retrieval_hit": 1.0,
+        "hit_at_1": 0.0,
+        "mrr": 0.5
+      },
+      "notes": [],
+      "retrieved": [
+        "holidays#0",
+        "pto-policy#0",
+        "sick-leave#0",
+        "pto-policy#1"
+      ]
+    },
+    {
+      "id": "work-abroad",
+      "category": "multi-hop",
+      "metrics": {
+        "retrieval_hit": 0.0,
+        "hit_at_1": 0.0,
+        "mrr": 0.0
+      },
+      "notes": [
+        "evidence not in top 4"
+      ],
+      "retrieved": [
+        "acceptable-use#0",
+        "parental-leave#0",
+        "office-locations#0",
+        "on-call#0"
+      ]
+    },
+    {
+      "id": "berlin-trip",
+      "category": "multi-hop",
+      "metrics": {
+        "retrieval_hit": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0
+      },
+      "notes": [],
+      "retrieved": [
+        "travel-booking#0",
+        "expense-policy#0",
+        "office-locations#0",
+        "health-benefits#0"
+      ]
+    },
+    {
+      "id": "meeting-free-today",
+      "category": "date",
+      "metrics": {
+        "retrieval_hit": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0
+      },
+      "notes": [],
+      "retrieved": [
+        "meetings#0",
+        "onboarding#0",
+        "office-locations#0",
+        "holidays#0"
+      ]
+    }
+  ]
+}

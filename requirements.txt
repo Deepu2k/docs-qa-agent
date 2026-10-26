@@ -1,0 +1,5 @@
+anthropic>=0.40
+numpy>=1.26
+sentence-transformers>=3.0   # default "local" embedder; skip if you only use --embedder tfidf or voyage
+# voyageai>=0.3              # only for --embedder voyage
+pytest>=8                    # tests
